@@ -1,10 +1,4 @@
-﻿#vajalikud parameetrid
-param(
-$kasutajanimi,
-$taisnimi,
-$kontokirjeldus
-)
-echo $args
+﻿echo $args
 #kontroll parameetri arvudele
 if($args.Count -ne 3){
  echo ".\skriptifailinimi.ps1 kasutajanimi taisnimi kirjeldus"
